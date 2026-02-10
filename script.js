@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (sendEmailBtn) {
         sendEmailBtn.addEventListener('click', () => {
             // Změňte 'vas.email@example.com' na svůj skutečný email
-            window.location.href = 'mailto:vas.email@example.com?subject=Dotaz ohledně webové vizitky';
+            window.location.href = 'mailto:kmc20170531@gmail.com?subject=Dotaz ohledně webové vizitky';
         });
     }
 

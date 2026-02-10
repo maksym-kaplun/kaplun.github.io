@@ -1,10 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="cs">
 <head>
-    <title>Moje Vizitka</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maksym Kaplun - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Ahoj, tohle je můj web na GitHubu!</h1>
-    <p>Právě jsem se naučil, jak hostovat stránky zdarma.</p>
+    <header>
+        <div class="container">
+            <img src="https://via.placeholder.com/150/007bff/ffffff?text=MK" alt="Maksym Kaplun" class="profile-pic">
+            <h1>Maksym Kaplun</h1>
+            <p class="subtitle">Student IT | Programátor | Gamer</p>
+            <nav>
+                <a href="#about">O mně</a>
+                <a href="#experience">Studium</a>
+                <a href="#contact">Kontakt</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="about" class="card">
+            <h2>O mně</h2>
+            <p>Ahoj! Jmenuji se <strong>Maksym Kaplun</strong>, je mi 18 let a pocházím z ukrajinského <strong>Charkova</strong>. Aktuálně žiji v České republice, kde se věnuji své největší vášni – informačním technologiím.</p>
+            <p>Můj svět se točí kolem počítačů. Když zrovna nepíšu kód, pravděpodobně mě najdete u nějaké dobré hry. Hry pro mě nejsou jen relax, ale i inspirace pro to, jak se software tvoří a funguje.</p>
+        </section>
+
+        <section id="experience" class="card">
+            <h2>Studium a dovednosti</h2>
+            <p>Už třetím rokem studuji IT na škole <strong>SPSPB</strong> (Střední průmyslová škola Panská). Během těchto tří let jsem získal pevné základy v programování a pochopil, jak funguje svět moderních technologií.</p>
+            <div class="skill-grid">
+                <div class="skill-item">
+                    <h3>Programování</h3>
+                    <p>Logické myšlení, algoritmy a vývoj aplikací.</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Gaming</h3>
+                    <p>Analýza herních mechanik a tech-stacku her.</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Jazyky</h3>
+                    <p>Ukrajinština (rodilý mluvčí), Čeština, Angličtina.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="card">
+            <h2>Kontakt</h2>
+            <p>Zajímá vás moje práce nebo si chcete jen popovídat o IT a hrách? Ozvěte se mi!</p>
+            <ul>
+                <li><strong>Lokalita:</strong> Praha / Online</li>
+                <li><strong>Email:</strong> <a href="mailto:vass-email@seznam.cz">vass-email@seznam.cz</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/vasesegithubu" target="_blank">github.com/vasesegithubu</a></li>
+            </ul>
+            <button id="sendEmailBtn">Napište mi</button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Maksym Kaplun. Všechna práva vyhrazena.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
